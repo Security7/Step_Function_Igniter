@@ -1,4 +1,4 @@
-# Step_Function_Igniter
+# Step Function Igniter
 
 This Lambda Function is used by CloudFormation when a stakc is created for the first time. When invocked by CF, it will automatically start the Step Function, which will immedialtry start procesing all the logs.
 
