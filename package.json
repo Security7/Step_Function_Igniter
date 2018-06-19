@@ -1,14 +1,23 @@
 {
   "name": "step_function_igniter",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository is used in conjunction with a step function to count how many times a Step Function loop occurred; since a SF can only have 25,000 events in its logs ",
   "main": "index.js",
   "scripts": {
+    "build": "./build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Security7/Step_Function_Igniter.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Security7/Step_Function_Igniter/issues"
+  },
+  "homepage": "https://github.com/Security7/Step_Function_Igniter#readme",
   "dependencies": {
-    "request": "^2.87.0"
+    "request": "2.87.0"
   }
 }
