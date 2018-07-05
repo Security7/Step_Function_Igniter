@@ -109,7 +109,7 @@ function start_step_function(container)
     	//      be passed to the Lambda to sucesfully send the email.
     	//
     	var params = {
-    		FunctionName: 'Step_Function_Restart-' + container.stack_name,
+    		FunctionName: 'Restart-' + container.stack_name,
     		Payload: data,
     	};
     
